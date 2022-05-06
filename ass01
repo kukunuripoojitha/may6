@@ -1,0 +1,12 @@
+c={1:['ABC','male','mstcs','pass'],2:['DEF','female','dstcs','fail'],3:['GHI','male','mecs','pass'],4:['NJM','female','mpcs','pass']}
+x=int(input('enter the student no:'))
+print('name of student:',c[x][0])
+print('gender of student:',c[x][1])
+print('group of student:',c[x][2])
+print('result of student:',c[x][3])
+
+output: enter the student no:2
+name of student: DEF
+gender of student: female
+group of student: dstcs
+result of student: fail
